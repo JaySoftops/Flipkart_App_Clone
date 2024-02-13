@@ -1,4 +1,4 @@
-git import React, { Component } from 'react'
+import React, { Component } from 'react'
 
 export default class FashionNavController extends Component {
     constructor(props) {
