@@ -1,7 +1,7 @@
 // import logo from './logo.svg';
 // import './App.css';
 
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { BrowserRouter, Route, Routes, Switch } from "react-router-dom";
 import Header from "./Component/Header";
 import Navbar from "./Component/Navbar";
 import Home from "./Component/Home";
@@ -26,20 +26,33 @@ function App() {
         <div className="App">
           <Header />
           <Navbar />
-          <Switch>
-            <Route exact path='/'><Home /></Route>
-            <Route path='/singleProductDetail'><SingleProductDetail />  </Route>
-            <Route path=''></Route>
-            <Route path=''></Route>
-            <Route path=''></Route>
-            <Route path=''></Route>
-            <Route path=''></Route>
-          </Switch>
+          <Routes>
+            <Route path="/" element={<Home />} />
+          </Routes>
           <SiteDetails />
           <Footer />
         </div>
       </Contexts>
     </BrowserRouter>
+    // <BrowserRouter>
+    //   <Contexts>
+    //     <div className="App">
+    //       <Header />
+    //       <Navbar />
+    //       <Switch>
+    //         <Route exact path='/'><Home /></Route>
+    //         <Route path='/singleProductDetail'><SingleProductDetail />  </Route>
+    //         <Route path=''></Route>
+    //         <Route path=''></Route>
+    //         <Route path=''></Route>
+    //         <Route path=''></Route>
+    //         <Route path=''></Route>
+    //       </Switch>
+    //       <SiteDetails />
+    //       <Footer />
+    //     </div>
+    //   </Contexts>
+    // </BrowserRouter>
   );
 }
 
