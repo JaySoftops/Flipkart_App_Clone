@@ -17,10 +17,6 @@ import BackgroundComp from "./Savyyr/BackgroundComp";
 
 function App() {
   return (
-    // <div className='App'>
-    // <ServiceSavyyr />
-    // <BackgroundComp />
-    // </div>
     <BrowserRouter>
       <Contexts>
         <div className="App">
