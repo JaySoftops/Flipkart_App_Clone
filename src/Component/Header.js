@@ -252,7 +252,7 @@ class Header extends HeaderController {
                 <Box className={classes.Menubar} onClick={this.handleOpen}>
                     <Menu fontSize='large' />
                 </Box>
-                <SwipeableDrawer anchor='left' open={this.state.drawer} onClose={this.handleClose} style={{ left: '-20px' }}>
+                <SwipeableDrawer anchor='left' open={this.state.drawer} onClose={this.handleClose} onOpen={this.handleOpen} style={{ left: '-20px' }}>
                     <Box style={{ width: '280px', textAlign: 'left', padding: '20px 10px', }}>
                         <Box className={classes.drawerHeading}><AccountCircle style={{ margin: '-6px 5px -6px 0px' }} /> Login & Signup
                             <img className={classes.drawerHeadingLogo} src='https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/logo_lite-cbb357.png' alt='flipkartLogo' />
