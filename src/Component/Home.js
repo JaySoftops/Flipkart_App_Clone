@@ -1,8 +1,8 @@
-import React, { Component } from 'react'
-import HeroSectionCarousel from './HeroSectionCarousel'
-import { Box, withStyles } from '@material-ui/core'
-import ProductCarousel from './ProductCarousel'
-import SquareProductList from './SquareProductList'
+import React, { Component } from 'react';
+import HeroSectionCarousel from './HeroSectionCarousel';
+import { Box, withStyles } from '@material-ui/core';
+import ProductCarousel from './ProductCarousel';
+import SquareProductList from './SquareProductList';
 
 const style = ({
     homeFlexBackground: {
@@ -53,19 +53,19 @@ const style = ({
             flexWrap: 'wrap',
         },
     },
-})
+});
 
 class Home extends Component {
     render() {
         const { classes } = this.props
         return (
-            <Box>
+            <Box className={classes.random} data-testid="random">
                 <HeroSectionCarousel />
                 <ProductCarousel image={'https://rukminim2.flixcart.com/image/312/312/knyxqq80/dslr-camera/r/y/x/digital-camera-eos-m50-mark-ii-eos-m50-mark-ii-canon-original-imag2gzkexzqhyhu.jpeg?q=70'} headingTitle={'Best of Electronics'} />
                 <ProductCarousel image={'https://rukminim2.flixcart.com/image/612/612/kufuikw0/book/x/s/w/atomic-habits-original-imag7kbzg2fu8rjv.jpeg?q=70'} headingTitle={'Beauty, Food, Toys & more'} />
                 <ProductCarousel image={'https://rukminim2.flixcart.com/image/416/416/xif0q/coffee/s/r/d/190-gold-190gm-imported-glass-bottle-1-roast-ground-coffee-original-imagrs3chyetab5n.jpeg?q=70'} headingTitle={'Sports, Healthcare & more'} />
                 <Box className={classes.homeFlexBackground}>
-                    <Box className={classes.homeFlex}>
+                    <Box className={classes.homeFlex} data-testid="homeFlex">
                         <SquareProductList headingTitle={'Gifting Collection for You'} />
                         <SquareProductList headingTitle={'Winter Best Buys'} />
                         <SquareProductList headingTitle={'Winter Special Offers'} />
@@ -73,7 +73,7 @@ class Home extends Component {
                 </Box>
                 <ProductCarousel image={'https://rukminim2.flixcart.com/image/416/416/xif0q/coffee/s/r/d/190-gold-190gm-imported-glass-bottle-1-roast-ground-coffee-original-imagrs3chyetab5n.jpeg?q=70'} headingTitle={'Sports, Healthcare & more'} />
                 <Box className={classes.homeFlexBackground}>
-                    <Box className={classes.homeFlex}>
+                    <Box className={classes.homeFlex} data-testid="homeFlex">
                         <SquareProductList headingTitle={'End of Season Bestsellers'} />
                         <SquareProductList headingTitle={'Top Picks for Kitchen Makeover'} />
                         <Box className={classes.homeAdvertiseMainImage}>

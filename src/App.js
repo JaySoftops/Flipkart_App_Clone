@@ -4,7 +4,7 @@
 import { BrowserRouter, Route, Routes, Switch } from "react-router-dom";
 import Header from "./Component/Header";
 import Navbar from "./Component/Navbar";
-import Home from "./Component/Home";
+import Homes from "./Component/Home";
 import SiteDetails from "./Component/SiteDetails";
 import Footer from "./Component/Footer";
 import { Contexts } from "./Context/Contexts";
@@ -23,7 +23,7 @@ function App() {
           <Header />
           <Navbar />
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="/" element={<Homes />} />
           </Routes>
           <SiteDetails />
           <Footer />
