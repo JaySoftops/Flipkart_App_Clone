@@ -14,6 +14,7 @@ import SingleProductDetail from "./Component/SingleProductDetail";
 import AboutSavyyr from "./Savyyr/AboutSavyyr";
 import ServiceSavyyr from "./Savyyr/ServiceSavyyr";
 import BackgroundComp from "./Savyyr/BackgroundComp";
+import Demo from "./Component/Demo";
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
             <Route path="/" element={<Homes />} />
           </Routes>
           <SiteDetails />
+          <Demo />
           <Footer />
         </div>
       </Contexts>
