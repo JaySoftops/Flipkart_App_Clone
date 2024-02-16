@@ -9,7 +9,7 @@ export default class DemoController extends Component {
     }
 
     handleAdd = () => {
-        this.setState({ count: count + 1 }, () => {
+        this.setState({ count: this.state.count + 1 }, () => {
             console.log(this.state.count, "@@@")
         })
     }

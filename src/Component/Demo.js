@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
+import DemoController from './DemoController'
 
-export default class Demo extends Component {
+export default class Demo extends DemoController {
   render() {
     return (
       <div>

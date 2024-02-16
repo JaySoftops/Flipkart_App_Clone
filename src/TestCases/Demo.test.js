@@ -32,5 +32,7 @@ describe("Demo Page Test", () => {
         expect(wrapper.find(".span").length).toBe(1);
         // expect(wrapper.find(Button).dive().find('.MuiButton-text').length).toBe(1);
         wrapper.find('button').simulate('click');
+        wrapper.find('button').simulate('click');
+        wrapper.find('button').simulate('click');                              // Show 3 time's result by using number of time used this method
     })
 });
