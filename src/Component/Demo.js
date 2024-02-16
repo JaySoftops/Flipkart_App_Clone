@@ -1,9 +1,15 @@
 import React, { Component } from 'react'
+import DemoController from './DemoController'
 
-export default class Demo extends Component {
+export default class Demo extends DemoController {
   render() {
     return (
-      <div className='demo'>Demo Body</div>
+      <div>
+        <div className='demo'>Demo Body
+          <span className='span'>span</span>
+        </div>
+        <button onClick={this.handleAdd}>Increment {this.state.count}</button>
+      </div>
     )
   }
 }
