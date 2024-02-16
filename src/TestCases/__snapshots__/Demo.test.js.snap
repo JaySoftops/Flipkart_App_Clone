@@ -1,0 +1,718 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Another describe test cases of Demo file (shallow vs mount) snapshot 1`] = `
+<table
+  className="custom-border"
+  style={
+    Object {
+      "border": "1px solid black",
+      "margin": "10px",
+    }
+  }
+>
+  <tr
+    style={
+      Object {
+        "textAlign": "center",
+      }
+    }
+  >
+    <th
+      style={
+        Object {
+          "border": "1px solid black",
+          "padding": "10px",
+          "width": "100px",
+        }
+      }
+    >
+      S.No
+    </th>
+    <th
+      style={
+        Object {
+          "border": "1px solid black",
+          "padding": "10px",
+          "width": "100px",
+        }
+      }
+    >
+      Name
+    </th>
+    <th
+      style={
+        Object {
+          "border": "1px solid black",
+          "padding": "10px",
+          "width": "100px",
+        }
+      }
+    >
+      Email
+    </th>
+  </tr>
+  <tr
+    style={
+      Object {
+        "textAlign": "center",
+      }
+    }
+  >
+    <td
+      style={
+        Object {
+          "border": "1px solid black",
+          "padding": "10px",
+          "width": "100px",
+        }
+      }
+    />
+    <td
+      style={
+        Object {
+          "border": "1px solid black",
+          "padding": "10px",
+          "width": "100px",
+        }
+      }
+    >
+      Jai
+    </td>
+    <td
+      style={
+        Object {
+          "border": "1px solid black",
+          "padding": "10px",
+          "width": "100px",
+        }
+      }
+    >
+      Jai@12344
+    </td>
+  </tr>
+</table>
+`;
+
+exports[`Another describe test cases of Demo file (shallow vs mount) snapshot 1 1`] = `
+<table
+  className="custom-border"
+  style={
+    Object {
+      "border": "1px solid black",
+      "margin": "10px",
+    }
+  }
+>
+  <tr
+    style={
+      Object {
+        "textAlign": "center",
+      }
+    }
+  >
+    <th
+      style={
+        Object {
+          "border": "1px solid black",
+          "padding": "10px",
+          "width": "100px",
+        }
+      }
+    >
+      S.No
+    </th>
+    <th
+      style={
+        Object {
+          "border": "1px solid black",
+          "padding": "10px",
+          "width": "100px",
+        }
+      }
+    >
+      Name
+    </th>
+    <th
+      style={
+        Object {
+          "border": "1px solid black",
+          "padding": "10px",
+          "width": "100px",
+        }
+      }
+    >
+      Email
+    </th>
+  </tr>
+  <tr
+    style={
+      Object {
+        "textAlign": "center",
+      }
+    }
+  >
+    <td
+      style={
+        Object {
+          "border": "1px solid black",
+          "padding": "10px",
+          "width": "100px",
+        }
+      }
+    />
+    <td
+      style={
+        Object {
+          "border": "1px solid black",
+          "padding": "10px",
+          "width": "100px",
+        }
+      }
+    >
+      Jai
+    </td>
+    <td
+      style={
+        Object {
+          "border": "1px solid black",
+          "padding": "10px",
+          "width": "100px",
+        }
+      }
+    >
+      Jai@12344
+    </td>
+  </tr>
+</table>
+`;
+
+exports[`Another describe test cases of Demo file (shallow vs mount) snapshot 2 1`] = `
+<table
+  className="custom-border"
+  style={
+    Object {
+      "border": "1px solid black",
+      "margin": "10px",
+    }
+  }
+>
+  <tr
+    style={
+      Object {
+        "textAlign": "center",
+      }
+    }
+  >
+    <th
+      style={
+        Object {
+          "border": "1px solid black",
+          "padding": "10px",
+          "width": "100px",
+        }
+      }
+    >
+      S.No
+    </th>
+    <th
+      style={
+        Object {
+          "border": "1px solid black",
+          "padding": "10px",
+          "width": "100px",
+        }
+      }
+    >
+      Name
+    </th>
+    <th
+      style={
+        Object {
+          "border": "1px solid black",
+          "padding": "10px",
+          "width": "100px",
+        }
+      }
+    >
+      Email
+    </th>
+  </tr>
+  <tr
+    style={
+      Object {
+        "textAlign": "center",
+      }
+    }
+  >
+    <td
+      style={
+        Object {
+          "border": "1px solid black",
+          "padding": "10px",
+          "width": "100px",
+        }
+      }
+    />
+    <td
+      style={
+        Object {
+          "border": "1px solid black",
+          "padding": "10px",
+          "width": "100px",
+        }
+      }
+    >
+      Jai
+    </td>
+    <td
+      style={
+        Object {
+          "border": "1px solid black",
+          "padding": "10px",
+          "width": "100px",
+        }
+      }
+    >
+      Jai@12344
+    </td>
+  </tr>
+</table>
+`;
+
+exports[`Another describe test cases of Demo file (shallow vs mount) snapshot 4 1`] = `
+<table
+  className="custom-border"
+  style={
+    Object {
+      "border": "1px solid black",
+      "margin": "10px",
+    }
+  }
+>
+  <tr
+    style={
+      Object {
+        "textAlign": "center",
+      }
+    }
+  >
+    <th
+      style={
+        Object {
+          "border": "1px solid black",
+          "padding": "10px",
+          "width": "100px",
+        }
+      }
+    >
+      S.No
+    </th>
+    <th
+      style={
+        Object {
+          "border": "1px solid black",
+          "padding": "10px",
+          "width": "100px",
+        }
+      }
+    >
+      Name
+    </th>
+    <th
+      style={
+        Object {
+          "border": "1px solid black",
+          "padding": "10px",
+          "width": "100px",
+        }
+      }
+    >
+      Email
+    </th>
+  </tr>
+  <tr
+    style={
+      Object {
+        "textAlign": "center",
+      }
+    }
+  >
+    <td
+      style={
+        Object {
+          "border": "1px solid black",
+          "padding": "10px",
+          "width": "100px",
+        }
+      }
+    />
+    <td
+      style={
+        Object {
+          "border": "1px solid black",
+          "padding": "10px",
+          "width": "100px",
+        }
+      }
+    >
+      Jai
+    </td>
+    <td
+      style={
+        Object {
+          "border": "1px solid black",
+          "padding": "10px",
+          "width": "100px",
+        }
+      }
+    >
+      Jai@12344
+    </td>
+  </tr>
+</table>
+`;
+
+exports[`Demo Page Test snapshot 1 1`] = `
+<table
+  className="custom-border"
+  style={
+    Object {
+      "border": "1px solid black",
+      "margin": "10px",
+    }
+  }
+>
+  <tr
+    style={
+      Object {
+        "textAlign": "center",
+      }
+    }
+  >
+    <th
+      style={
+        Object {
+          "border": "1px solid black",
+          "padding": "10px",
+          "width": "100px",
+        }
+      }
+    >
+      S.No
+    </th>
+    <th
+      style={
+        Object {
+          "border": "1px solid black",
+          "padding": "10px",
+          "width": "100px",
+        }
+      }
+    >
+      Name
+    </th>
+    <th
+      style={
+        Object {
+          "border": "1px solid black",
+          "padding": "10px",
+          "width": "100px",
+        }
+      }
+    >
+      Email
+    </th>
+  </tr>
+  <tr
+    style={
+      Object {
+        "textAlign": "center",
+      }
+    }
+  >
+    <td
+      style={
+        Object {
+          "border": "1px solid black",
+          "padding": "10px",
+          "width": "100px",
+        }
+      }
+    />
+    <td
+      style={
+        Object {
+          "border": "1px solid black",
+          "padding": "10px",
+          "width": "100px",
+        }
+      }
+    >
+      Jai
+    </td>
+    <td
+      style={
+        Object {
+          "border": "1px solid black",
+          "padding": "10px",
+          "width": "100px",
+        }
+      }
+    >
+      Jai@12344
+    </td>
+  </tr>
+</table>
+`;
+
+exports[`Demo Page Test snapshot 2 1`] = `
+<table
+  className="custom-border"
+  style={
+    Object {
+      "border": "1px solid black",
+      "margin": "10px",
+    }
+  }
+>
+  <tr
+    style={
+      Object {
+        "textAlign": "center",
+      }
+    }
+  >
+    <th
+      style={
+        Object {
+          "border": "1px solid black",
+          "padding": "10px",
+          "width": "100px",
+        }
+      }
+    >
+      S.No
+    </th>
+    <th
+      style={
+        Object {
+          "border": "1px solid black",
+          "padding": "10px",
+          "width": "100px",
+        }
+      }
+    >
+      Name
+    </th>
+    <th
+      style={
+        Object {
+          "border": "1px solid black",
+          "padding": "10px",
+          "width": "100px",
+        }
+      }
+    >
+      Email
+    </th>
+  </tr>
+  <tr
+    style={
+      Object {
+        "textAlign": "center",
+      }
+    }
+  >
+    <td
+      style={
+        Object {
+          "border": "1px solid black",
+          "padding": "10px",
+          "width": "100px",
+        }
+      }
+    />
+    <td
+      style={
+        Object {
+          "border": "1px solid black",
+          "padding": "10px",
+          "width": "100px",
+        }
+      }
+    >
+      Jai
+    </td>
+    <td
+      style={
+        Object {
+          "border": "1px solid black",
+          "padding": "10px",
+          "width": "100px",
+        }
+      }
+    >
+      Jai@12344
+    </td>
+  </tr>
+</table>
+`;
+
+exports[`Demo Page Test snapshot 3 1`] = `
+<table
+  className="custom-border"
+  style={
+    Object {
+      "border": "1px solid black",
+      "margin": "10px",
+    }
+  }
+>
+  <tr
+    style={
+      Object {
+        "textAlign": "center",
+      }
+    }
+  >
+    <th
+      style={
+        Object {
+          "border": "1px solid black",
+          "padding": "10px",
+          "width": "100px",
+        }
+      }
+    >
+      S.No
+    </th>
+    <th
+      style={
+        Object {
+          "border": "1px solid black",
+          "padding": "10px",
+          "width": "100px",
+        }
+      }
+    >
+      Name
+    </th>
+    <th
+      style={
+        Object {
+          "border": "1px solid black",
+          "padding": "10px",
+          "width": "100px",
+        }
+      }
+    >
+      Email
+    </th>
+  </tr>
+  <tr
+    style={
+      Object {
+        "textAlign": "center",
+      }
+    }
+  >
+    <td
+      style={
+        Object {
+          "border": "1px solid black",
+          "padding": "10px",
+          "width": "100px",
+        }
+      }
+    />
+    <td
+      style={
+        Object {
+          "border": "1px solid black",
+          "padding": "10px",
+          "width": "100px",
+        }
+      }
+    >
+      Jai
+    </td>
+    <td
+      style={
+        Object {
+          "border": "1px solid black",
+          "padding": "10px",
+          "width": "100px",
+        }
+      }
+    >
+      Jai@12344
+    </td>
+  </tr>
+</table>
+`;
+
+exports[`Demo Page Test snapshot of Demo file 1`] = `
+<div
+  className="demoBody"
+  style={
+    Object {
+      "alignItems": "center",
+      "display": "flex",
+      "flexDirection": "column",
+      "height": "280px",
+      "justifyContent": "center",
+      "margin": "auto",
+      "padding": "20px",
+      "width": "500px",
+    }
+  }
+>
+  <div
+    className="demo"
+    style={
+      Object {
+        "fontSize": "2rem",
+        "margin": "15px",
+      }
+    }
+  >
+    Demo Body
+    <span
+      className="span"
+    >
+      span
+    </span>
+  </div>
+  <button
+    className="demoButton-0"
+    onClick={[Function]}
+    style={
+      Object {
+        "border": "none",
+        "borderRadius": "5px",
+        "boxShadow": "rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px",
+        "padding": "10px 0px",
+        "width": "130px",
+      }
+    }
+  >
+    Increment 
+    0
+  </button>
+  <div>
+    <h3
+      style={
+        Object {
+          "padding": "15px 0px 0px",
+          "textAlign": "center",
+        }
+      }
+    >
+      Child Component
+    </h3>
+    <InnerDemo
+      Sno={0}
+    />
+  </div>
+</div>
+`;
