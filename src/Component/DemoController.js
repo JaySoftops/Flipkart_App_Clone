@@ -14,6 +14,27 @@ export default class DemoController extends Component {
         })
     }
 
+    handleObject = () => {
+        return { id: 4 };
+    }
+
+    handleLoadData = () => {
+        return new Promise((resolve, reject) => {
+            setTimeout(() => {
+                console.log('Hi Load')
+            })
+            resolve({ name: "Load Data" })
+        }, 2000)
+    }
+
+    handleAdd = (a, b) => {
+        return a + b;
+    }
+
+    componentDidMount() {
+        this.handleAdd(5, 10);
+    }
+
     render() {
         return (
             <div>DemoController</div>
