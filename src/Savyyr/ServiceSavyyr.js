@@ -292,6 +292,6 @@ class ServiceSavyyr extends Component {
             </div>
         )
     }
-}
+};
 
 export default withStyles(style)(ServiceSavyyr)

@@ -109,6 +109,6 @@ class BackgroundComp extends Component {
             </div>
         )
     }
-}
+};
 
 export default withStyles(style)(BackgroundComp)

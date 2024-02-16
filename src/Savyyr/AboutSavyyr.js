@@ -6,4 +6,4 @@ export default class AboutSavyyr extends Component {
       <div>AboutSavyyr</div>
     )
   }
-}
+};
