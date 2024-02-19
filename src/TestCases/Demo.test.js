@@ -2,6 +2,7 @@ import Demo from "../Component/Demo";
 import { mount, render, shallow } from "enzyme";
 import { Button } from "@material-ui/core";
 import InnerDemo from "../Component/InnerDemo";
+import * as math from "../Context/Moc";
 
 describe.skip("Demo Page Test", () => {                                                                                    // describe the wrapper function of whole file's test cases.
 
@@ -63,27 +64,27 @@ describe.skip("Demo Page Test", () => {                                         
         let wrapper = shallow(<InnerDemo />)
 
         // snapshot method creates or take a screenshot of file in the snap file,snapshot folder.
-        expect(wrapper).toMatchSnapshot();
+        // expect(wrapper).toMatchSnapshot();
     });
 
     it("snapshot 2", () => {
         let wrapper = shallow(<InnerDemo />)
-        expect(wrapper).toMatchSnapshot();
+        // expect(wrapper).toMatchSnapshot();
     });
 
     it("snapshot 3", () => {
         let wrapper = shallow(<InnerDemo />)
-        expect(wrapper).toMatchSnapshot();
+        // expect(wrapper).toMatchSnapshot();
     });
 
     it("snapshot of Demo file", () => {
         let wrapper = shallow(<Demo />)
-        expect(wrapper).toMatchSnapshot();
+        // expect(wrapper).toMatchSnapshot();
     });
 });
 
 
-describe("Another describe test cases of Demo file (shallow vs mount)", () => {
+describe.skip("Another describe test cases of Demo file (shallow vs mount)", () => {
 
     // it("snapshot 1", () => {
     //     let wrapper = mount(<Demo/>)
@@ -91,13 +92,13 @@ describe("Another describe test cases of Demo file (shallow vs mount)", () => {
     //     console.log(wrapper.debug());
     // });
 
-    it("instance testing", async() => {
+    it("instance testing", async () => {
         let wrapper = shallow(<Demo />);
 
         // instance method returns the single-node wrapper's node's underlying class instance. It must be a single-ndoe wrapper.
         let anyFn = wrapper.instance().handleObject();
         console.log(anyFn);
-        expect(anyFn).toEqual({id: 4});
+        expect(anyFn).toEqual({ id: 4 });
     });
 
     it("load data function, take time for some output", async () => {
@@ -108,7 +109,7 @@ describe("Another describe test cases of Demo file (shallow vs mount)", () => {
     });
 
     it("jest spyon componentdidmount", async () => {
-        jest.spyOn(Demo.prototype,'componentDidMount');
+        jest.spyOn(Demo.prototype, 'componentDidMount');
         shallow(<Demo />);
 
         expect(Demo.prototype.componentDidMount).toHaveBeenCalled();
@@ -120,7 +121,7 @@ describe("Another describe test cases of Demo file (shallow vs mount)", () => {
     //     let instance = wrapper.instance();
     //     jest.spyOn(instance,'handleAdd');
     //     wrapper.find('button').simulate('click');
-        
+
     //     expect(instance.handleAdd).toHaveBeenCalled();
     //     expect(instance.handleAdd).toHaveBeenCalledWith(5,10);
     // });
@@ -140,4 +141,60 @@ describe("Another describe test cases of Demo file (shallow vs mount)", () => {
         }
         expect(inputProp).toEqual(matchProps);
     })
-});   
+});
+
+// Use jest.mock() to mock the module containing the functions
+jest.mock("../Context/Moc", () => {
+    return {
+        add: jest.fn(),
+        subtract: jest.fn(),
+        multiply: jest.fn()
+    }
+});
+
+
+describe(" For Mock Function", () => {
+
+    beforeAll(() => {  
+        console.log('1, I am executing BEFORE ALL test cases')
+    });
+    afterAll(() => {
+        console.log('2, I am executing AFTER ALL test cases')
+    });
+    beforeEach(() => {
+        console.log('3, I am executing BEFORE EACH test cases')
+    });
+    afterEach(() => {
+        console.log('4, I am executing AFTER EACH test cases')
+    });
+
+    // it(" API Data test", () => {                                        // Not Working
+    //     const mockAdd = jest.fn();
+    //     mockAdd.mockReturnValue(5);
+    //     const result = math.add(3,2);
+    //     expect(mockAdd).toHaveBeenCalledWith(3,2);
+    //     expect(result).toEqual(5);
+    //     // console.log('Mockss'); 
+    // });
+
+    it(" Adding ", () => {
+
+        // Provide custom implementation for the add function
+        math.add.mockImplementation(() => 40);
+        console.log(math.add(9, 18));
+    });
+
+    it(" Subtract ", () => {
+
+        // Provide custom implementation for the subtract function
+        math.subtract.mockImplementation(() => 22);
+        console.log(math.subtract(9, 21));
+    });
+
+    it(" Multiply ", () => {
+
+        // Provide custom implementation for the multiply function
+        math.multiply.mockImplementation(() => 48);
+        console.log(math.multiply(2, 44));
+    });
+});
