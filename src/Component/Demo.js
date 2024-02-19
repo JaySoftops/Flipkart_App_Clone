@@ -34,7 +34,7 @@ class Demo extends DemoController {
         <div className="demo" style={classes.demo}>Demo Body
           <span className="span" style={classes.span}>span</span>
         </div>
-        <button className={`demoButton-${this.state.count}`} style={classes.demoButton} onClick={this.handleAdd}>Increment {this.state.count}</button>
+        <button className={`demoButton-${this.state.count}`} style={classes.demoButton} onClick={this.handleIncrement}>Increment {this.state.count}</button>
         <div>
           <h3 style={{ textAlign: "center", padding: "15px 0px 0px" }}>Child Component</h3>
           <input type="text" value="Data" style={{ width: "150px", marginLeft: "100px" }} />
