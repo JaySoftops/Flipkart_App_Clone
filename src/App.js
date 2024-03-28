@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes, Switch } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Header from "./Component/Header";
 import Navbar from "./Component/Navbar";
 import Homes from "./Component/Home";
@@ -7,7 +7,7 @@ import Footer from "./Component/Footer";
 import { Contexts } from "./Context/Contexts";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import SingleProductDetail from "./Component/SingleProductDetail";
+// import SingleProductDetail from "./Component/SingleProductDetail";
 import Demo from "./Component/Demo";
 
 function App() {
@@ -29,4 +29,5 @@ function App() {
     </BrowserRouter>
   );
 }
+
 export default App;
