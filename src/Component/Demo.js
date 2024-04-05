@@ -1,4 +1,4 @@
-// import React, { Component } from 'react'
+import React, { Component } from 'react'
 import DemoController from './DemoController'
 import InnerDemo from './InnerDemo';
 
