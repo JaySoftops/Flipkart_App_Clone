@@ -3,6 +3,22 @@
 "I am demo2 merge with demo"
 
 //Git Commands
-git reset
+git status is for shows, which file has changed
 
-git revert
+git add . is for, working to staging area to our file (git add . or git add filename)
+
+git commit -m "message" is for create a milestone of our code with message
+
+git branch branchname is for create a new branch (git branch Demo)
+
+git checkout branchname is for, active on this branch with head (git checkout master)
+
+git checkout -b branchname is for, create and go to new branch (git checkout -b demo)
+
+git branch -m branchname is for, rename the current branchname when user on it (git branch -m newDemo)
+
+git branch -d branchname or git branch -D branchname is for delete the branch when user on other branch (git branch -d demo, git branch -D demo)
+
+git reset is for back to any old version code with branch head (git reset <commitId>, git reset Head~1 )
+
+git revert is used for create new commit with old code version (git revert <commitID>)
