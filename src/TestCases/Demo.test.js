@@ -29,7 +29,7 @@ describe.skip("Demo Page Test", () => {                                         
         console.log(wrapper.html());
     });
 
-    test("Dive", () => {
+    test("Dive and simulate", () => {
         const wrapper = shallow(<Demo />);
         expect(wrapper.find(".span").length).toBe(1);
         // expect(wrapper.find(Button).dive().find('.MuiButton-text').length).toBe(1);
