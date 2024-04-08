@@ -1,0 +1,43 @@
+"I am jaiprakash nagar"
+"This is merge other branches"
+"I am demo2 merge with demo"
+
+//Git Commands
+git status is for shows, which file has changed
+
+git add . is for, working to staging area to our file (git add . or git add filename)
+
+git commit -m "message" is for create a milestone of our code with message
+
+git branch branchname is for create a new branch (git branch Demo)
+
+git checkout branchname is for, active on this branch with head (git checkout master)
+
+git checkout -b branchname is for, create and go to new branch (git checkout -b demo)
+
+git branch -m branchname is for, rename the current branchname when user on it (git branch -m newDemo)
+
+git branch -d branchname or git branch -D branchname is for delete the branch when user on other branch (git branch -d demo, git branch -D demo)
+
+git reset is for back to any old version code with branch head (git reset <commitId>, git reset Head~1 )
+
+git revert is used for create new commit with old code version (git revert <commitID>)
+
+git merge is used for merging code of other branch in it (git merge demo) if we are on master and want to merge demo branch code.
+
+git rebase is also combine the code from one branch to self branch (git rebase master), this cmd will work as a all master code comes in demo branch.
+
+git merge vs git rebase, they both command combine the code but their commit arrangement are different, in git merge cmd the code commit arrange like a time schedule, in git rebase cmd commit arrange
+like a linear path- active branch set their commit in last place and other branch commit set before it, in rebase.
+
+git pull origin master is used for pulling code from remote master branch to local master branch
+
+git commit --amend -m "meassage", this command change our last commit message.
+
+git cherry-pick <commitId> is used for bug fixes where you want to place that bugfix commit in all version branches (git cherry-pick e98fhb1).
+
+git stash cmd is used for enable you to switch branches without committing the current branch, it store data something at hidden place (git stash) cuurent branch.
+
+git switch cmd is for switching one branch to another, it likes a checkout but checkout have more uses but switch command only for branches (git switch demo).
+
+git restore --staged filename cmd is used for file which comes in staging area return to working area (git restore --staged demo.tsx or git restore ---staged ).
