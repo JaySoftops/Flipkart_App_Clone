@@ -55,3 +55,6 @@ but other side 'main', is seen as a more inclusive and respectful term, that why
 
 learn to create github repo and all their setup and how to run git command to make our project to github repo.
 
+git fetch command is used to retrieve new changes from a remote repo, withoit merging those changes in our local branche (git fetch origin master).
+
+git pull is ised for fetch the new changes from a remote repo and integrate them into the local current branch( git pull origin master).
