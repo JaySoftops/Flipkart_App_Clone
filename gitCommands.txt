@@ -41,3 +41,17 @@ git stash cmd is used for enable you to switch branches without committing the c
 git switch cmd is for switching one branch to another, it likes a checkout but checkout have more uses but switch command only for branches (git switch demo).
 
 git restore --staged filename cmd is used for file which comes in staging area return to working area (git restore --staged demo.tsx or git restore ---staged ).
+
+git push is used for pushing the code and their commit to remote.
+
+git push origin master is for pushing the local master code to remote master branch.
+
+git push -u origin master is for setup tracking btw local master to remote master branch for future reference, it works only first time pushing of our code commit to new create repo.
+
+git push --set-upstream origin master is for after linking btw them if we don't linked first time.
+
+master branch vs main branch, both refer to the default branch in git repo, 'master' is seen as a more offensive and use in the context of slavery, 
+but other side 'main', is seen as a more inclusive and respectful term, that why, we mainly use 'main' keyword now.
+
+learn to create github repo and all their setup and how to run git command to make our project to github repo.
+
