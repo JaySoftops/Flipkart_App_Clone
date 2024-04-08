@@ -29,3 +29,9 @@ git rebase is also combine the code from one branch to self branch (git rebase m
 
 git merge vs git rebase, they both command combine the code but their commit arrangement are different, in git merge cmd the code commit arrange like a time schedule, in git rebase cmd commit arrange
 like a linear path- active branch set their commit in last place and other branch commit set before it, in rebase.
+
+git pull origin master is used for pulling code from remote master branch to local master branch
+
+git commit --amend -m "meassage", this command change our last commit message
+
+git cherry-pick <commitId> is used for bug fixes where you want to place that bugfix commit in all version branches.
