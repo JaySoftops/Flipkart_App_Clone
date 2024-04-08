@@ -22,3 +22,10 @@ git branch -d branchname or git branch -D branchname is for delete the branch wh
 git reset is for back to any old version code with branch head (git reset <commitId>, git reset Head~1 )
 
 git revert is used for create new commit with old code version (git revert <commitID>)
+
+git merge is used for merging code of other branch in it (git merge demo) if we are on master and want to merge demo branch code.
+
+git rebase is also combine the code from one branch to self branch (git rebase master), this cmd will work as a all master code comes in demo branch.
+
+git merge vs git rebase, they both command combine the code but their commit arrangement are different, in git merge cmd the code commit arrange like a time schedule, in git rebase cmd commit arrange
+like a linear path- active branch set their commit in last place and other branch commit set before it, in rebase.
